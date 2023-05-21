@@ -1,0 +1,58 @@
+header{
+  background-color: rgb(35, 35, 35);
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+}
+
+#homeSection .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  min-height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80 ");
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+#homeSection img{
+  border-radius: 50%;
+
+}
+
+footer{
+  background-color: rgb(34, 31, 31);
+  text-align: center;
+}
+
+footer .container{
+  padding: 40px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.imgSection1 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/Nature_Images_Free_Download_%28172096539%29.jpeg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
